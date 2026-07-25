@@ -1,29 +1,29 @@
 class GitClonepath < Formula
   desc "Clone hosted Git repositories into deterministic paths"
   homepage "https://github.com/nkaewam/git-clonepath"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.1/git-clonepath_0.1.1_darwin_arm64.tar.gz"
-      sha256 "1d20119208473fd36f21fb1df8b82bb80097189c9e1666c7e056a93066e2ef84"
+      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.2/git-clonepath_0.1.2_darwin_arm64.tar.gz"
+      sha256 "5ab607f2aa2a4cdf9a505ae0337ffe86a47f4e7a473af1e01a4b70b9eafbb0fc"
     end
 
     on_intel do
-      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.1/git-clonepath_0.1.1_darwin_amd64.tar.gz"
-      sha256 "83a93803a6b6c5a4731b481dc41f4f5da01a6cd044e1df35b02d492f3725b303"
+      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.2/git-clonepath_0.1.2_darwin_amd64.tar.gz"
+      sha256 "e1fe4ca07439f580307bef12fbef22e48ec491aef35e2742dd4e7769e0ee5c58"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.1/git-clonepath_0.1.1_linux_arm64.tar.gz"
-      sha256 "65186c79e7f892ea9391fed7c96c8a44dc5c3306b1299734617239dbee29b780"
+      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.2/git-clonepath_0.1.2_linux_arm64.tar.gz"
+      sha256 "414ed6ed55d4ced4905a7612a086399759e110499eec1a6493dceb396870b65b"
     end
 
     on_intel do
-      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.1/git-clonepath_0.1.1_linux_amd64.tar.gz"
-      sha256 "75e51e3f20f2c174db073388473871daccde177bb60dc5d8fe5b764a67043529"
+      url "https://github.com/nkaewam/git-clonepath/releases/download/v0.1.2/git-clonepath_0.1.2_linux_amd64.tar.gz"
+      sha256 "b604adc00e1aac74bf179e8be196cd1cdd81b836fd66996d8fd9b7464ab39928"
     end
   end
 
