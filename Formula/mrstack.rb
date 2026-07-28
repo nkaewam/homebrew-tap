@@ -3,6 +3,8 @@ class Mrstack < Formula
   homepage "https://github.com/nkaewam/mrstack"
   version "0.2.1"
 
+  depends_on "glab"
+
   on_macos do
     on_arm do
       url "https://github.com/nkaewam/mrstack/releases/download/v0.2.1/mrstack_0.2.1_darwin_arm64.tar.gz"
@@ -26,8 +28,6 @@ class Mrstack < Formula
       sha256 "464469526a0c10e0506606f38ab54f4dcb3b6021a114faf33773156959910cc8"
     end
   end
-
-  depends_on "glab"
 
   def install
     bin.install "mrstack"
