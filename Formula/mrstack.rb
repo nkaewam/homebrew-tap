@@ -1,31 +1,31 @@
 class Mrstack < Formula
   desc "Discover, check, and restack a strict linear chain of GitLab merge requests"
   homepage "https://github.com/nkaewam/mrstack"
-  version "0.2.1"
+  version "0.3.0"
 
   depends_on "glab"
 
   on_macos do
     on_arm do
-      url "https://github.com/nkaewam/mrstack/releases/download/v0.2.1/mrstack_0.2.1_darwin_arm64.tar.gz"
-      sha256 "dbf9619a0448f0e0c6e02beea32d39d95daae3e2c2382e7b4ed8a89121406c29"
+      url "https://github.com/nkaewam/mrstack/releases/download/v0.3.0/mrstack_0.3.0_darwin_arm64.tar.gz"
+      sha256 "b91dd044c90d4966dcd6653606a5da6627e1a197b9ebbf4f78ce1227800a380a"
     end
 
     on_intel do
-      url "https://github.com/nkaewam/mrstack/releases/download/v0.2.1/mrstack_0.2.1_darwin_amd64.tar.gz"
-      sha256 "50292a40510fde4873841861e5986736f27c6090a617523d84106ca31ade0113"
+      url "https://github.com/nkaewam/mrstack/releases/download/v0.3.0/mrstack_0.3.0_darwin_amd64.tar.gz"
+      sha256 "163c670077c000920413691185b8ef7efae608f391610593ea861fc559c4756d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nkaewam/mrstack/releases/download/v0.2.1/mrstack_0.2.1_linux_arm64.tar.gz"
-      sha256 "c61ad59d73dd4cc030154bba407e2ee0fe7e6af96f27958f133f6e2ffba2d469"
+      url "https://github.com/nkaewam/mrstack/releases/download/v0.3.0/mrstack_0.3.0_linux_arm64.tar.gz"
+      sha256 "8708537e138f0cfa638893b9c7da88c088ea74d2c28e7c02a1eea9f7fe68f6f6"
     end
 
     on_intel do
-      url "https://github.com/nkaewam/mrstack/releases/download/v0.2.1/mrstack_0.2.1_linux_amd64.tar.gz"
-      sha256 "464469526a0c10e0506606f38ab54f4dcb3b6021a114faf33773156959910cc8"
+      url "https://github.com/nkaewam/mrstack/releases/download/v0.3.0/mrstack_0.3.0_linux_amd64.tar.gz"
+      sha256 "d0583e27d9c5948f9bce3b41fed1376a7d1e750071fff65694fb3d69483a990e"
     end
   end
 
